@@ -1,0 +1,85 @@
+html { 
+  background:  url(https://ak8.picdn.net/shutterstock/videos/26541158/thumb/1.jpg) ;
+  -webkit-background-size:  none ,cover;
+  -moz-background-size: none ,cover;
+  -o-background-size: none , cover;
+  background-size: none ,cover;
+  background-repeat: no-repeat;
+background-attachment: fixed;  
+background-size: cover;
+}
+  header{
+    height: 145px;
+    background-color:rgba(222, 226, 224, 0.76);
+
+}
+header h2{
+  padding-top: 45px ;
+  font-size: 25px;
+  font-family: 'Lobster', cursive;
+}
+header h3{
+  padding-top: 5px ;
+  font-size: 15px;
+  font-family: 'Lobster', cursive;
+}
+
+
+#logo{
+    float: left;
+    object-fit: 50%;
+    width: 125px ;
+    height: 125px;
+    border-radius: 50%;
+    opacity: 75%;
+    margin: 10px;
+}
+header nav ul{
+    text-align: center;
+}
+header nav ul li{
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+    display: inline-block;
+}
+
+header nav ul li:hover{
+  cursor: grab;
+  color: white;
+  transform: scale(1.1) ;
+  transition: 150ms;
+
+    
+}
+#table{
+    margin-left: 160px;
+    margin-right: 160px;
+    padding: 15px 25px 15px 25px;
+    background-color:rgba(222, 226, 224, 0.76);
+
+    border-radius: 25px 0px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    /* margin-left: 260px; */
+
+  }
+main{
+    background-color: rgba(222, 226, 224, 0.76);
+    height: fit-content;
+    margin: 100px 25px 25px 25px;
+    border-radius: 25px;
+    direction: rtl;
+  }
+  #sec1{
+    padding-top: 50px;
+}
+.video{
+    /* width: 500px;   
+    height:300px; */
+    margin: 25px 250px 75px 25px;
+    border-radius: 100px;
+
+}
